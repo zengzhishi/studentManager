@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+body{
+	
+	margin:0px;
+	text-align: center;
+}
+.main{
+	position:absolute;
+	left:800px;
+	top:200px;
+}
+.LoginImg{
+	width:120px;
+	height:120px;
+	-moz-opacity:0.6;
+	opacity:0.6;
+}
+.LoginImg:hover{
+	-moz-opacity:1;
+	opacity:1;
+	transform:scale(2,2);
+	-webkit-transform:scale(2,2);
+}
+.detail{
+	float: right;
+}
+.table{  
+    border: solid 1px #B4B4B4;  
+    border-collapse: collapse;
+    border-radius:5px; 
+}  
